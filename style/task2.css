@@ -1,0 +1,23 @@
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+section>div{
+    display: flex;
+    gap: 20px;
+}
+img{
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    section>div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
